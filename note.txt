@@ -1,0 +1,9 @@
+NO BALANCING 0.637 logreg
+
+Oversampling
+- ADASYN 0.62
+- KmeansSMOTE 0.639 gauss
+
+Undersampling
+- !!! InstanceHardnessThreshold -> high improvement in train 95%
+- OneSidedSelection/TomekLinks 0.667-0.650
